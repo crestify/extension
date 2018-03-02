@@ -17,7 +17,8 @@
     "tabs",
     "storage",
     "http://*/*",
-    "https://*/*"
+    "https://*/*",
+    "contextMenus"
   ],
   "options_ui": {
     "page": "options.html"
@@ -36,12 +37,8 @@
     }
   ],
   "browser_action": {
-    "default_icon": {
-      "19": "icons/icon-19.png",
-      "38": "icons/icon-38.png"
-    },
-    "default_title": "Extension Boilerplate",
-    "default_popup": "popup.html"
+    "default_icon": "icons/bookmark.png",
+    "default_title": "Click to bookmark"
   }
 }
 
